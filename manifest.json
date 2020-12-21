@@ -1,6 +1,6 @@
 {
-    "name": "anihilator",
-    "version": "3.5",
+    "name": "antytest",
+    "version": "1.1",
     "manifest_version": 2,
     "content_scripts": [
       {
