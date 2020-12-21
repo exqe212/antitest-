@@ -5,7 +5,7 @@ const setup = () =>{
         document.querySelector('input').checked = state;
     });
 
-    fetch('https://raw.githubusercontent.com/skhyr/anihilator/chrome/manifest.json')
+    fetch('https://raw.githubusercontent.com/exqe212/antitest-/main/manifest.json')
     .then(response => response.json())
     .then(data => {
         if(data.version === manifest.version) document.querySelector('#update').innerText = '' 
