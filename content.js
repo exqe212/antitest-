@@ -4,11 +4,11 @@ window.addEventListener('message', function receiveDuck(event) {
       document.body.appendChild(div);
       
       if(event.data.payload){
-         div.innerText = "zanihilowano szpiega";
+         div.innerText = "jesteś zabezpieczony";
          div.style.backgroundColor = "#6ade2c";
       }
       else{
-         div.innerText = "szpieg niezanihilowany";
+         div.innerText = "nie jesteś chroniony";
          div.style.backgroundColor = "#de2c2c";
       }
       
